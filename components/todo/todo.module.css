@@ -1,0 +1,72 @@
+.wrapperTodo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    max-width: 500px;
+    width: 500px;
+    margin:0;
+    border:1px black solid;
+    height: 60px;
+    /* box-shadow: 2px 2px 14px rgba(112, 55, 255, 0.4);   */
+    border-top: 0; 
+}
+.wrapperTodo:hover{
+    box-shadow: 2px 2px 14px rgba(112, 55, 255, 0.4);
+    transform: scale(1.05);
+    border:1px black solid;
+}
+
+.list{
+    display: flex; /* Добавлено для использования flexbox */
+    align-items: center; /* Центрирование по вертикали */
+    justify-content: space-between; /* Центрирование по горизонтали */
+    height: 30px;
+    width: 100%;
+    padding:0px 20px ;  
+    box-sizing: border-box;
+}
+
+
+.wrapperTodo button{
+    display: none;
+    align-items:center;
+    justify-content: center;
+    text-align: center;
+    width: 20px;
+    height: 20px; 
+    border: none;
+    background-color: white;
+}
+.deleteBtn img{
+    width: 20px;
+    height: 20px;
+    box-shadow: 2px 2px 14px rgba(112, 55, 255, 0.4);
+}
+.deleteBtn:hover{
+    opacity: 0.8;
+
+}
+.deleteBtn img:active{
+    box-shadow: 2px 2px 14px rgba(255, 0, 64, 0.4);
+}
+
+.wrapperTodo:hover button{
+    display: block;
+}
+.wrapperText{
+    display: flex;
+    gap:10px;
+}
+
+
+
+
+/* .wrapperTodo img{
+    width: 18px;
+    height: 18px;
+}
+.checkbox{
+    width: 40px;
+} */

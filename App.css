@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+.App {
+  text-align: center;
+  font-family: "Lato", sans-serif;
+    Font-weight: 600;
+    font-style: normal;
+    
+}
+ul, ol {
+  list-style-type: none; 
+}
+h1{
+  color: rgba(112, 55, 255, 0.4);
+  font-size: 50px;
+  display: inline-block;
+}
+
+h1:hover{
+  text-shadow: 1px 1px 5px rgba(112, 55, 255, 0.4);
+  transform: scale(1.2);
+}
